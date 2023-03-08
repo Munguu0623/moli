@@ -100,7 +100,7 @@ inquirer
     },
   ])
   .then((answers) => {
-    // Remove special characters and replace space with -
+    // Тусгай тэмдэгтүүдийг устгаад зайг солино уу -
     const fileName = answers.title
       .toLowerCase()
       .replace(/[^a-zA-Z0-9 ]/g, '')

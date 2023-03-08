@@ -1,8 +1,8 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
+name: Moli
+avatar: /static/images/moli_about.jpeg
+occupation: Би таны ирээдүйн мэргэжил сонгоход тань тусалж өгөх болно.
+company:
 email: address@yoursite.com
 twitter: https://twitter.com/Twitter
 linkedin: https://www.linkedin.com

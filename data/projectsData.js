@@ -1,11 +1,9 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: '“Эрэлттэй мэргэжил" сонгох нь хэр ашигтай вэ?',
+    description: `Энд бас нэгэн зүйлийг онцгойлон анхааруулахад бид “Эрэлттэй мэргэжил” гэдгийг одоогийн эрэлтээр тодорхойлох нь учир дутагдалтай юм. Харин ирээдүйд, чамайг сургууль төгсөөд ажиллах үед 5-7 жилийн дараа эрэлт нь ямар байх вэ гэдгийг судлах хэрэгтэй. Ингэхийн тулд магадгүй нийгэм, эдийн засгийн чиг хандлагыг судалж үзэх ёстой болно.`,
+    imgSrc: '/static/images/post_1.png',
+    href: '/blog/consultant-blog',
   },
   {
     title: 'The Time Machine',

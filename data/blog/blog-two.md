@@ -1,7 +1,7 @@
 ---
-title: Зах зээл судлаач
+title: Хувийн дасгалжуулагч
 date: '2016-03-08'
-tags: ['Борлуулат маркетинг зар сурталчилгаа']
+tags: ['Спорт чөлөөт цаг аялал жуулчлал ']
 draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---

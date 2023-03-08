@@ -1,6 +1,6 @@
 ---
-name: Sparrow Hawk
-avatar: /static/images/sparrowhawk-avatar.jpg
+name: Moli
+avatar: /static/images/moli_about.jpeg
 occupation: Wizard of Earthsea
 company: Earthsea
 twitter: https://twitter.com/sparrowhawk

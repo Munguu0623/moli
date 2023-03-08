@@ -1,7 +1,7 @@
 ---
-title: Зах зээл судлаач
+title: Дунд сургуулийн багш
 date: '2016-03-08'
-tags: ['Борлуулат маркетинг зар сурталчилгаа']
+tags: ['Нийгмийн халамж ба багш']
 draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---

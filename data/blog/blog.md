@@ -1,7 +1,7 @@
 ---
-title: Зах зээл судлаач
+title: Кибер аюулгүй байдлын шинжээч
 date: '2016-03-08'
-tags: ['Борлуулат маркетинг зар сурталчилгаа']
+tags: ['Мэдээллийн технологи болон тооцоолол']
 draft: false
 summary: Example of a markdown file with code blocks and syntax highlighting
 ---

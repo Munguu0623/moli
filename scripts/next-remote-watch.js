@@ -1,10 +1,5 @@
 #!/usr/bin/env node
 
-// Adapted from https://github.com/hashicorp/next-remote-watch
-// A copy of next-remote-watch with an additional ws reload emitter.
-// The app listens to the event and triggers a client-side router refresh
-// see components/ClientReload.js
-
 const chalk = require('chalk')
 const chokidar = require('chokidar')
 const program = require('commander')
@@ -49,7 +44,6 @@ app.prepare().then(() => {
         app.server.hotReloader.send('building')
 
         if (program.command) {
-          // Use spawn here so that we can pipe stdio from the command without buffering
           spawn(
             shell,
             [

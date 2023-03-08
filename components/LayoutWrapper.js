@@ -6,8 +6,19 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import Image from 'next/image'
+import { useState, useEffect } from 'react'
 
+// import { useTheme } from 'next-themes'
+// const { theme } = useTheme
 const LayoutWrapper = ({ children }) => {
+  const [isDarkMode, setIsDarkMode] = useState(false)
+  useEffect(() => {
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    setIsDarkMode(isDark)
+  }, [])
+  console.log(isDarkMode, 'this is theme')
+  // const logoSrc = theme === 'dark' ? '/static/images/logo.png' : '/static/images/logo_light.png'
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
@@ -15,16 +26,23 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3">
-                  <Logo />
+                <div className="mr-3 mt-4">
+                  {/* <Logo /> */}
+                  <Image
+                    src="/static/images/logo.png"
+                    alt="logo"
+                    width="100px"
+                    height="40px"
+                    className="dark:hidden"
+                  />
                 </div>
-                {typeof siteMetadata.headerTitle === 'string' ? (
+                {/* {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
                   siteMetadata.headerTitle
-                )}
+                )} */}
               </div>
             </Link>
           </div>
