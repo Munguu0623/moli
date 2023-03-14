@@ -8,8 +8,9 @@ import NewsletterForm from '@/components/NewsletterForm'
 import SectionCover from '@/components/SectionCover'
 import Feedback from '@/components/Feedback'
 import SectionCard from '@/components/SectionCard'
-import OurPartner from '@/components/OurPartner'
 import SectionTest from '@/components/SectionTest'
+import SectionApp from '@/components/SectionApp'
+import OurPartner from '@/components/OurPartner'
 
 const MAX_DISPLAY = 5
 
@@ -103,14 +104,17 @@ export default function Home({ posts }) {
       <div className="  my-10 ">
         <Feedback />
       </div>
-      <div>
+      <div className="my-10">
         <OurPartner />
       </div>
-      {siteMetadata.newsletter.provider !== '' && (
+      <div className="my-10">
+        <SectionApp />
+      </div>
+      {/* {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
+          < />
         </div>
-      )}
+      )} */}
     </>
   )
 }
