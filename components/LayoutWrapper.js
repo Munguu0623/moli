@@ -17,7 +17,7 @@ const LayoutWrapper = ({ children }) => {
     const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
     setIsDarkMode(isDark)
   }, [])
-  console.log(isDarkMode, 'this is theme')
+  // console.log(isDarkMode, 'this is theme')
   // const logoSrc = theme === 'dark' ? '/static/images/logo.png' : '/static/images/logo_light.png'
   return (
     <SectionContainer>

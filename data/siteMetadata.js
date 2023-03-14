@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'мэргэжил сонголт ',
   author: 'Moli',
   headerTitle: 'TailwindBlog',
-  description: 'Мэргэжил сонгоход тань доорх мэргэжилүүдээс орж үзээрэй',
+  description:
+    'Ирээдүйд сонгох гэж байгаа болон суралцах мэргэжлийн талаараа мэдээлэл байхгүй бол мэргэжлүүдээс үзээрэй',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',

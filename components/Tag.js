@@ -6,6 +6,7 @@ const Tag = ({ text }) => {
     <Link href={`/tags/${kebabCase(text)}`}>
       <a className="mr-3 flex text-sm  font-medium text-blue-500 hover:text-blue-600 dark:hover:text-blue-400">
         {text.replace(/-/g, ' ')}
+        {/* {text} */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

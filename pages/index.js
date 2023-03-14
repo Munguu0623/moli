@@ -9,6 +9,7 @@ import SectionCover from '@/components/SectionCover'
 import Feedback from '@/components/Feedback'
 import SectionCard from '@/components/SectionCard'
 import OurPartner from '@/components/OurPartner'
+import SectionTest from '@/components/SectionTest'
 
 const MAX_DISPLAY = 5
 
@@ -27,9 +28,9 @@ export default function Home({ posts }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
-            Ажил мэргэжлийн зөвлөгөө
+            Мэргэжлүүд
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-sm leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
         </div>
@@ -96,6 +97,9 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
+      <div className=" my-10">
+        <SectionTest />
+      </div>
       <div className="  my-10 ">
         <Feedback />
       </div>

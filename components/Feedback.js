@@ -14,7 +14,7 @@ export default function Feedback(second) {
                 <div className="mb-3 sm:block sm:shrink-0 md:mb-0">
                   <img
                     alt="Paul Clapton"
-                    src="https://scontent-hkt1-1.xx.fbcdn.net/v/t39.30808-6/240658747_4102945119803886_6552281178877547395_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGh9ZzoB-b8a1kMH9XdiUn2oPWLwntizdug9YvCe2LN298d1G827jENNDfBau8zp7vstVWCOccJWw1yQc1gs29T&_nc_ohc=iakQAGEnLGQAX9FJwKn&_nc_ht=scontent-hkt1-1.xx&oh=00_AfAQYTqxRpk75pvjPc3ePnGynZHKBegZJ1H0Znb4cFL3Pg&oe=640CC000"
+                    src="/static/images/oyun.jpeg"
                     className="h-16 w-16 rounded-lg object-cover shadow-sm"
                   />
                 </div>
@@ -46,7 +46,7 @@ export default function Feedback(second) {
                 <div className="mb-3 sm:block sm:shrink-0 md:mb-0">
                   <img
                     alt="Paul Clapton"
-                    src="https://scontent-hkt1-1.xx.fbcdn.net/v/t39.30808-6/240658747_4102945119803886_6552281178877547395_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGh9ZzoB-b8a1kMH9XdiUn2oPWLwntizdug9YvCe2LN298d1G827jENNDfBau8zp7vstVWCOccJWw1yQc1gs29T&_nc_ohc=iakQAGEnLGQAX9FJwKn&_nc_ht=scontent-hkt1-1.xx&oh=00_AfAQYTqxRpk75pvjPc3ePnGynZHKBegZJ1H0Znb4cFL3Pg&oe=640CC000"
+                    src="/static/images/oyun.jpeg"
                     className="h-16 w-16 rounded-lg object-cover shadow-sm"
                   />
                 </div>

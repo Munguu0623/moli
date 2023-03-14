@@ -4,83 +4,52 @@ export default function SectionCard(second) {
       <div className="py-16">
         <div className="m-auto space-y-16 px-6 text-gray-500 md:px-12 xl:container">
           <div>
-            <h2 className="mt-4 text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
-              {/* A technology-first approach to payments <br class="sm:block" hidden />
-              and finance */}
-              Хүн бүрийн амьдралдаа хийх хамгийн том сонголтуудын нэг бол мэргэжил сонголт.
+            <h2 className="mt-4 text-center text-xl font-bold text-gray-800 dark:text-white md:text-4xl">
+              Мэргэжлээ сонгоход анхаарах ёстой тулгын гурван зүйл
             </h2>
           </div>
-          <div className="mt-16 grid gap-8 sm:grid-cols-2 md:-mx-8 lg:grid-cols-3 lg:gap-0 xl:grid-cols-4">
-            <div className="group relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 transition duration-300 hover:border-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none dark:hover:border-gray-700 dark:hover:bg-gray-800 sm:flex sm:gap-8 lg:border-transparent lg:shadow-transparent lg:hover:shadow-gray-600/10 dark:lg:bg-transparent">
-              <div className="relative">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341111.png"
-                  className="w-10"
-                  width="512"
-                  height="512"
-                  alt="package-delivery illustration"
-                />
-                <h3 className="mt-8 mb-4 text-2xl font-semibold text-gray-800 transition dark:text-white">
-                  Надад ямар мэргэжил тохирох вэ?
-                </h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Neque Dolor, alias quae, quibusdam accusantium, laudantium recusandae tenetur
-                  fugiat non cum doloribus aperiam voluptates nostrum.
-                </p>
-              </div>
-            </div>
-            <div className="group relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 transition duration-300 hover:border-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none dark:hover:border-gray-700 dark:hover:bg-gray-800 sm:flex sm:gap-8 lg:border-transparent lg:shadow-transparent lg:hover:shadow-gray-600/10 dark:lg:bg-transparent">
-              <div className="relative">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png"
-                  className="w-10"
-                  width="512"
-                  height="512"
-                  alt="package-delivery illustration"
-                />
-                <h3 className="mt-8 mb-4 text-2xl font-semibold text-gray-800 transition dark:text-white">
-                  Надад ямар ур чадвар хэрэгтэй вэ?
-                </h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Neque Dolor, alias quae, quibusdam accusantium, laudantium recusandae tenetur
-                  fugiat non cum doloribus aperiam voluptates nostrum.
-                </p>
-              </div>
-            </div>
-            <div className="group relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 transition duration-300 hover:border-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none dark:hover:border-gray-700 dark:hover:bg-gray-800 sm:flex sm:gap-8 lg:border-transparent lg:shadow-transparent lg:hover:shadow-gray-600/10 dark:lg:bg-transparent">
-              <div className="relative">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png"
-                  className="w-10"
-                  width="512"
-                  height="512"
-                  alt="package-delivery illustration"
-                />
-                <h3 className="mt-8 mb-4 text-2xl font-semibold text-gray-800 transition dark:text-white">
-                  Би хүссэн салбарт хэрхэн орох вэ?
-                </h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Neque Dolor, alias quae, quibusdam accusantium, laudantium recusandae tenetur
-                  fugiat non cum doloribus aperiam voluptates nostrum.
-                </p>
-              </div>
-            </div>
-            <div className="group relative rounded-3xl border border-gray-100 bg-white p-8 shadow-2xl shadow-gray-600/10 transition duration-300 hover:border-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none dark:hover:border-gray-700 dark:hover:bg-gray-800 sm:flex sm:gap-8 lg:border-transparent lg:shadow-transparent lg:hover:shadow-gray-600/10 dark:lg:bg-transparent">
-              <div className="relative">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png"
-                  className="w-10"
-                  width="512"
-                  height="512"
-                  alt="package-delivery illustration"
-                />
-                <h3 className="mt-8 mb-4 text-2xl font-semibold text-gray-800 transition dark:text-white">
-                  Тэр мэргэжил намайг хаана хүргэх вэ?
-                </h3>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Neque Dolor, alias quae, quibusdam accusantium, laudantium recusandae tenetur
-                  fugiat non cum doloribus aperiam voluptates nostrum.
-                </p>
+
+          <div className="relative py-16">
+            <div className="container relative m-auto px-6 text-gray-500 md:px-12">
+              <div className="grid gap-6 md:mx-auto md:w-8/12 lg:w-full lg:grid-cols-3">
+                <div className="group space-y-6 rounded-3xl border border-gray-100 bg-white px-8 py-12 text-center shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
+                  <img
+                    className="mx-auto w-24"
+                    src="https://cdn-icons-png.flaticon.com/512/3588/3588658.png"
+                    alt="illustration"
+                    loading="lazy"
+                  />
+                  <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">Сонирхол</h3>
+                  <p>
+                    Хүн дуртай зүйлдээ цаг хугацаа, сэтгэл зүрхээ зориулахад бэлэн байдаг.
+                    Эсрэгээрээ, хүүхдийг дургүй зүйлд нь хүчлэхэд хэцүү. Харин юу ч сонирхохгүй
+                    байна гэдэг нь тухайн хүн өөрийгөө “олоогүй” байгаа гэсэн үг.
+                  </p>
+                </div>
+                <div className="group space-y-6 rounded-3xl border border-gray-100 bg-white px-8 py-12 text-center shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
+                  <img
+                    className="mx-auto w-24"
+                    src="https://cdn-icons-png.flaticon.com/512/3852/3852881.png"
+                    alt="illustration"
+                    loading="lazy"
+                  />
+                  <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">Авьяас</h3>
+                  <p>
+                    хүүхдийн авьяас, сэтгэц физиологийн онцлог шинж. Жишээ нь, маркетингийн менежер
+                    хүн нээлттэй, хөдөлгөөнтэй, сэргэлэн байх ёстой. Нягтлан хүн анхаарлын төвлөрөлт
+                    сайн гэх мэтчилэн онцлогууд бий.
+                  </p>
+                </div>
+                <div className="group space-y-6 rounded-3xl border border-gray-100 bg-white px-8 py-12 text-center shadow-2xl shadow-gray-600/10 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none">
+                  <img
+                    className="mx-auto w-24"
+                    src="https://cdn-icons-png.flaticon.com/512/8705/8705564.png"
+                    alt="illustration"
+                    loading="lazy"
+                  />
+                  <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">Зах зээл</h3>
+                  <p>хөдөлмөрийн зах зээлийн эрэлтийг харгалзан үзвэл зохилтой.</p>
+                </div>
               </div>
             </div>
           </div>
