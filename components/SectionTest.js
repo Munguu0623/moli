@@ -1,3 +1,4 @@
+import testData from '@/data/testData'
 export default function SectionTest(second) {
   return (
     <>
@@ -21,10 +22,10 @@ export default function SectionTest(second) {
 
                 <div className="space-y-2">
                   <h5 className="group-hover:text-primary text-center text-xl font-medium text-gray-700 transition dark:text-white">
-                    Мэргэжил сонголтын тест
+                    {testData[0].title}
                   </h5>
                   <p className="text-justify text-sm text-gray-600 dark:text-gray-300">
-                    Дараах үйл ажиллагаанаас өөрт сонирхолтой 1-3 сонголт хийнэ үү...
+                    {testData[0].description}
                   </p>
                 </div>
                 <a href="#" className="group-hover:text-primary flex items-center justify-between">
@@ -56,7 +57,7 @@ export default function SectionTest(second) {
 
                 <div className="space-y-2">
                   <h5 className="group-hover:text-primary text-xl font-medium text-gray-700 transition dark:text-white">
-                    Second feature
+                    {testData[1].title}
                   </h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
@@ -91,7 +92,7 @@ export default function SectionTest(second) {
 
                 <div className="space-y-2">
                   <h5 className="group-hover:text-primary text-xl font-medium text-gray-700 transition dark:text-white">
-                    Third feature
+                    {testData[2].title}
                   </h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
@@ -114,8 +115,8 @@ export default function SectionTest(second) {
                 </a>
               </div>
             </div>
-            <div className="group relative bg-gray-50 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-900">
-              <div className="relative space-y-8 p-8 py-12 transition duration-300 group-hover:bg-white dark:group-hover:bg-gray-800">
+            <div className="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
+              <div className="relative space-y-8 p-8 py-12">
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png"
                   className="w-12"
@@ -126,13 +127,16 @@ export default function SectionTest(second) {
 
                 <div className="space-y-2">
                   <h5 className="group-hover:text-primary text-xl font-medium text-gray-700 transition dark:text-white">
-                    More features
+                    {testData[3].title}
                   </h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    {testData[3].description}
                   </p>
                 </div>
-                <a href="#" className="group-hover:text-primary flex items-center justify-between">
+                <a
+                  href={testData[0].href}
+                  className="group-hover:text-primary flex items-center justify-between"
+                >
                   <span className="text-sm">тест үзэх</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

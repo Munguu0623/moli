@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function SectionApp(second) {
   return (
     <>
@@ -5,7 +7,7 @@ export default function SectionApp(second) {
         <div className="container m-auto space-y-8 px-6 md:px-12 lg:px-20">
           <div className="items-center justify-center gap-16 text-center md:flex md:text-left">
             <div className="order-last mb-6 space-y-6 md:mb-0 md:w-7/12 lg:w-6/12">
-              <h1 className="text-4xl font-bold dark:text-white md:text-5xl">
+              <h1 className="text-center text-4xl font-bold dark:text-white md:text-5xl">
                 Тун удахгүй <span className="text-blue-500 dark:text-blue-500">MOLI</span> app
               </h1>
               <p className="text-sm text-gray-600 dark:text-gray-300">
@@ -45,14 +47,22 @@ export default function SectionApp(second) {
                 </a>
               </div>
             </div>
-            <img
-              src="static/images/mobile.webp"
+            <Image
               width="832"
-              height="608"
+              height="508"
+              src="/static/images/mobile-hd.png"
+              alt="mobility_illustration"
+              className="m-auto md:w-5/12"
+              loading="lazy"
+            />
+            {/* <img
+              src="static/images/mobile-hd.png"
+              width="1232"
+              height="1308"
               className="m-auto md:w-5/12"
               loading="lazy"
               alt="mobility_illustration"
-            />
+            /> */}
           </div>
         </div>
       </div>
