@@ -26,7 +26,7 @@ export default function Footer() {
               <div className="flex items-center justify-between gap-6 border-b border-white py-6 dark:border-gray-800 md:block md:space-y-6 md:border-none md:py-0">
                 <img
                   src="static/images/logo.png"
-                  alt="logo tailus"
+                  alt="logo moli"
                   width="100"
                   height="42"
                   className="w-32 dark:brightness-200 dark:grayscale"

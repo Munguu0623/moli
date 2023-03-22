@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'мэргэжил сонголт ',
   author: 'Moli',
-  headerTitle: 'TailwindBlog',
+  headerTitle: 'Moli site',
   description:
     'Ирээдүйд сонгох гэж байгаа болон суралцах мэргэжлийн талаараа мэдээлэл байхгүй бол мэргэжлүүдээс үзээрэй',
   language: 'en-us',
