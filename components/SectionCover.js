@@ -9,9 +9,9 @@ export default function SectionCover(second) {
             </h2>
 
             <p className="hidden  md:mt-4 md:block">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus
-              etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet
-              amet volutpat quisque ut interdum tincidunt duis.
+              Судалгаанаас үзэхэд 65-70 насласан хүн амьдралынхаа бараг 40 жилийг өөрийн сонгосон
+              мэргэжилдээ зориулдаг байна. Иймээс мэргэжил сонгох гэдэг нь санамсаргүй зүйл байх
+              ёсгүй.
             </p>
 
             <div className="mt-4 md:mt-8">

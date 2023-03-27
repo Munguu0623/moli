@@ -23,7 +23,9 @@ export default function OurPartner(second) {
             Бидэнтэй хамтран ажилдаг байгууллагууд
           </h1>
           <p className="mb-8 text-left text-base leading-relaxed text-gray-500">
-            Бид монгол орны ирээдүйн боловсролын салбарт шинэ залуустаа хөрөнгө оруулдаг
+            Бидэнтэй хамтран ажилладаг байгууллагууд Бид эх орныхоо ирээдүй хойч болсон оюунлаг
+            залуусынхаа мэргэжил сонголт хэмээх амьдралын хамгийн чухал сонголтыг зөв байлгахад
+            дэмжин ажилладаг.
           </p>
           <div className="-mx-4 mt-2 flex w-full flex-wrap text-left">
             <div className="mt-4 w-1/4 p-4 sm:w-1/4">

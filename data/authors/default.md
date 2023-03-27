@@ -9,8 +9,4 @@ linkedin: https://www.linkedin.com
 github: https://github.com
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
-
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+"MOLI" нь Зориг сан Швейцарын хөгжлийн агентлагийн хамтарсан тэтгэлэгт оюутнуудын бүтээж буй сайт болон контент үйлдвэрлэл, арга хэмжээ зохион байгуулах чиглэлээр ашгийн бус үйл ажиллагаа явуулдаг. Мөн бид нийгмийн сайн сайханы төлөө, Монгол улсын ирээдүй болсон ерөнхий боловсролын сургуулийн сурагчдад мэргэжлийн чиг баримжаа олгох , өөрийгөө шинжлэх ухааны аргаар танин мэдэх, цаашлаад мэргэжлээ судлах , өөрт тохирсон мэргэжлээ сонгох зэрэг мэргэжил сонголтонд туслах , ажил мэргэжлийн ерөнхий тайлбарыг нийтэд түгээх бодлого барин ажиллаж байна.
