@@ -71,7 +71,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <dd>
                           {author.twitter && (
                             <Link
-                              href={author.twitter}
+                              href="https://www.instagram.com/moliofficial2023/"
                               className="text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
                             >
                               @Instagram
