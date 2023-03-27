@@ -50,7 +50,7 @@ export default function SectionApp(second) {
             <Image
               width="832"
               height="508"
-              src="/static/images/mobile-hd.png"
+              src="/static/images/moli_app.png"
               alt="mobility_illustration"
               className="m-auto md:w-5/12"
               loading="lazy"
