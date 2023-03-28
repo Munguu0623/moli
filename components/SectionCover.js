@@ -15,12 +15,12 @@ export default function SectionCover(second) {
             </p>
 
             <div className="mt-4 md:mt-8">
-              <a
-                href="#"
-                className="inline-block rounded bg-blue-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700   "
+              <button
+                className="inline-block rounded bg-blue-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 "
+                type="button"
               >
                 санал хүсэлт
-              </a>
+              </button>
             </div>
           </div>
         </div>
