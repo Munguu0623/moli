@@ -48,21 +48,13 @@ export default function SectionApp(second) {
               </div>
             </div>
             <Image
-              width="832"
-              height="508"
-              src="/static/images/moli_app.png"
+              width="600"
+              height="400"
+              src="/static/images/app-design.png"
               alt="mobility_illustration"
               className="m-auto md:w-5/12"
               loading="lazy"
             />
-            {/* <img
-              src="static/images/mobile-hd.png"
-              width="1232"
-              height="1308"
-              className="m-auto md:w-5/12"
-              loading="lazy"
-              alt="mobility_illustration"
-            /> */}
           </div>
         </div>
       </div>

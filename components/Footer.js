@@ -28,8 +28,8 @@ export default function Footer() {
                   src="/static/images/logo.png"
                   alt="logo moli"
                   width="100"
-                  height="42"
-                  className="w-32 dark:brightness-200 dark:grayscale"
+                  height="20"
+                  className="w-30 dark:brightness-200 dark:grayscale"
                 />
                 <div className="flex gap-6">
                   <Link
