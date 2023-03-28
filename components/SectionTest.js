@@ -3,7 +3,7 @@ export default function SectionTest(second) {
   return (
     <>
       <div className="py-16">
-        <div className="m-auto px-6 text-gray-500 md:px-12 xl:container">
+        <div className="xl:container·md:px-12 m-auto px-6 text-gray-500">
           <div>
             <h2 className="mt-4 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
               Ажил мэргэжил тодорхойлох тест

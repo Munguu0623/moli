@@ -127,7 +127,7 @@ export default function Tags({ tags }) {
       <PageSEO title={`Tags - ${siteMetadata.author}`} description="Things I blog about" />
 
       <div className="py-16">
-        <div className="m-auto px-6 text-gray-500 md:px-12 xl:container">
+        <div className="xl:container·md:px-12 m-auto px-6 text-gray-500">
           <div>
             <h2 className="mt-4 text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">
               Салбар мэргэжлүүдийн жагсаалт
@@ -144,7 +144,7 @@ export default function Tags({ tags }) {
                     href={`/tags/${kebabCase(el.tagName)}`}
                     className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
                   >
-                    <div className="m-auto  px-6 text-gray-500 md:px-12 xl:container ">
+                    <div className="xl:container·md:px-12  m-auto px-6 text-gray-500 ">
                       <div className="mt-3  divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 dark:divide-gray-700 dark:border-gray-700 ">
                         <div className="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
                           <div className="relative space-y-8 p-8 py-12">
@@ -185,7 +185,7 @@ export default function Tags({ tags }) {
                     href={`/tags/${kebabCase(t)}`}
                     className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
                   >
-                    <div className="m-auto  px-6 text-gray-500 md:px-12 xl:container ">
+                    <div className="m-auto  px-6 text-gray-500 xl:container·md:px-12 ">
                       <div className="mt-3  divide-x divide-y divide-gray-100 overflow-hidden rounded-3xl border border-gray-100 dark:divide-gray-700 dark:border-gray-700 ">
                         <div className="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
                           <div className="relative space-y-8 p-8 py-12">
