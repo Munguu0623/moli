@@ -13,7 +13,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
   github: 'https://github.com',
-  twitter: 'https://www.instagram.com/moliofficial2023/',
+  instagram: 'https://www.instagram.com/moliofficial2023/',
   facebook: 'https://www.facebook.com/Moli-116183528065840',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',

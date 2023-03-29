@@ -24,7 +24,7 @@ const NewsletterForm = ({ title = 'мэдээлэл авах ' }) => {
     const { error } = await res.json()
     if (error) {
       setError(true)
-      setMessage('Your e-mail address is invalid or you are already subscribed!')
+      setMessage('Таны и-мэйл хаяг буруу эсвэл та аль хэдийн бүртгүүлсэн байна!')
       return
     }
 

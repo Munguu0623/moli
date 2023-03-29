@@ -2,8 +2,12 @@ import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 import NewsletterForm from '@/components/NewsletterForm'
-
+import { useTheme } from 'next-themes'
+import Image from 'next/image'
 export default function Footer() {
+  const { systemTheme, theme, setTheme } = useTheme()
+  const currentTheme = theme === 'system' ? systemTheme : theme
+
   return (
     <footer>
       <svg
@@ -24,29 +28,56 @@ export default function Footer() {
           <div className="grid grid-cols-8 gap-6 md:gap-0">
             <div className="col-span-8 border-r border-gray-100 dark:border-gray-800 md:col-span-2 lg:col-span-3">
               <div className="flex items-center justify-between gap-6 border-b border-white py-6 dark:border-gray-800 md:block md:space-y-6 md:border-none md:py-0">
-                <img
-                  src="/static/images/logo.png"
-                  alt="logo moli"
-                  width="100"
-                  height="20"
-                  className="w-30 dark:brightness-200 dark:grayscale"
-                />
+                {currentTheme == 'light' ? (
+                  <Image
+                    src="/static/images/logo.png"
+                    alt="logo"
+                    width="100px"
+                    height="40px"
+                    className="dark:hidden"
+                  />
+                ) : (
+                  <Image
+                    src="/static/images/logo_light.png"
+                    alt="logo"
+                    width="100px"
+                    height="40px"
+                    className="dark:hidden"
+                  />
+                )}
                 <div className="flex gap-6">
                   <Link
-                    href="#"
+                    href="https://www.instagram.com/moliofficial2023/"
                     target="blank"
                     aria-label="twitter"
                     className="hover:text-cyan-600"
                   >
                     <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
+                      width="22px"
+                      height="22px"
+                      viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="bi bi-twitter"
-                      viewBox="0 0 16 16"
+                      className="bi bi-instagram"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                      <path d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9ZM7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12ZM17.5 8C18.3284 8 19 7.32843 19 6.5C19 5.67157 18.3284 5 17.5 5C16.6716 5 16 5.67157 16 6.5C16 7.32843 16.6716 8 17.5 8Z" />
+                    </svg>
+                  </Link>
+                  <Link
+                    href="https://www.facebook.com/Moli-116183528065840"
+                    target="blank"
+                    aria-label="facebook"
+                    className="hover:text-cyan-600"
+                  >
+                    <svg
+                      width="20px"
+                      height="20px"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="bi bi-facebook"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                     </svg>
                   </Link>
                 </div>

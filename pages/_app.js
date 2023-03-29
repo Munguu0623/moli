@@ -1,7 +1,6 @@
 import '@/css/tailwind.css'
 import '@/css/prism.css'
 import 'katex/dist/katex.css'
-import 'nprogress/nprogress.css'
 import '@fontsource/inter/variable-full.css'
 
 import { ThemeProvider } from 'next-themes'
@@ -12,20 +11,20 @@ import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 import Router, { useRouter } from 'next/router'
-import NProgress from 'nprogress'
+import NextNProgress from 'nextjs-progressbar'
 const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
-Router.onRouteChangeStart = (url) => {
-  console.log(url)
-  NProgress.start()
-}
-Router.onRouteChangeComplete = (url) => {
-  NProgress.done()
-}
-Router.onRouteChangeError = (url) => {
-  NProgress.done()
-}
+// Router.onRouteChangeStart = (url) => {
+//   console.log(url)
+//   NProgress.start()
+// }
+// Router.onRouteChangeComplete = (url) => {
+//   NProgress.done()
+// }
+// Router.onRouteChangeError = (url) => {
+//   NProgress.done()
+// }
 
 export default function App({ Component, pageProps }) {
   return (
@@ -37,7 +36,16 @@ export default function App({ Component, pageProps }) {
       <Analytics />
       <LayoutWrapper>
         <Component {...pageProps} />
+        <NextNProgress
+          options={{ showSpinner: false }}
+          color="#29D"
+          startPosition={0.6}
+          stopDelayMs={200}
+          height={5}
+          showOnShallow={true}
+        />
       </LayoutWrapper>
+
       {/* <NextNProgress options={{ showSpinner: false }} /> */}
     </ThemeProvider>
   )
