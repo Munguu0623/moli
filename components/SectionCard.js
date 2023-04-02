@@ -2,7 +2,7 @@ export default function SectionCard(second) {
   return (
     <>
       <div className="py-16">
-        <div className="m-auto space-y-16 px-6 text-gray-500 md:px-12 xl:container">
+        <div className="xl:container·md:px-12 m-auto space-y-16 px-6 text-gray-500">
           <div>
             <h2 className="mt-4 text-center text-xl font-bold text-gray-800 dark:text-white md:text-4xl">
               Мэргэжлээ сонгоход анхаарах ёстой тулгын гурван зүйл
@@ -48,7 +48,11 @@ export default function SectionCard(second) {
                     loading="lazy"
                   />
                   <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">Зах зээл</h3>
-                  <p>хөдөлмөрийн зах зээлийн эрэлтийг харгалзан үзвэл зохилтой.</p>
+                  <p>
+                    Хөдөлмөрийн зах зээл дээр ямар мэргэжил илүүдэлтэй, ямар мэргэжил дутагдалтай
+                    байгааг судлсаны үр дүнд сонголтоо хийвэл ирээдүй тань илүү баталгаатай болох
+                    юм.
+                  </p>
                 </div>
               </div>
             </div>

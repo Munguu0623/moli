@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Moli',
   headerTitle: 'Moli site',
   description:
-    'Ирээдүйд сонгох гэж байгаа болон суралцах мэргэжлийн талаараа мэдээлэл байхгүй бол мэргэжлүүдээс үзээрэй',
+    'Та өөрийн сонирхож буй болон ирээдүйд суралцах гэж буй мэргэжлийнхээ талаар бүхий л мэдээллийг нэг дороос хүлээн аваарай.Ирээдүйд сонгох гэж байгаа болон суралцах мэргэжлийн талаараа мэдээлэл байхгүй бол доорх мэргэжлүүдээс үзээрэй',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -13,8 +13,8 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
   github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
+  instagram: 'https://www.instagram.com/moliofficial2023/',
+  facebook: 'https://www.facebook.com/Moli-116183528065840',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
   locale: 'en-US',

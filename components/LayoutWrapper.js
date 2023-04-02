@@ -8,16 +8,12 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
+import { useTheme } from 'next-themes'
 
-// import { useTheme } from 'next-themes'
-// const { theme } = useTheme
 const LayoutWrapper = ({ children }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false)
-  useEffect(() => {
-    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    setIsDarkMode(isDark)
-  }, [])
-  // console.log(isDarkMode, 'this is theme')
+  const { systemTheme, theme, setTheme } = useTheme()
+  const currentTheme = theme === 'system' ? systemTheme : theme
+
   // const logoSrc = theme === 'dark' ? '/static/images/logo.png' : '/static/images/logo_light.png'
   return (
     <SectionContainer>
@@ -28,21 +24,24 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex items-center justify-between">
                 <div className="mr-3 mt-4">
                   {/* <Logo /> */}
-                  <Image
-                    src="/static/images/logo.png"
-                    alt="logo"
-                    width="100px"
-                    height="40px"
-                    className="dark:hidden"
-                  />
+                  {currentTheme == 'light' ? (
+                    <Image
+                      src="/static/images/logo.png"
+                      alt="logo"
+                      width="100px"
+                      height="40px"
+                      className="dark:hidden"
+                    />
+                  ) : (
+                    <Image
+                      src="/static/images/logo_light.png"
+                      alt="logo"
+                      width="100px"
+                      height="40px"
+                      className="dark:hidden"
+                    />
+                  )}
                 </div>
-                {/* {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
-                    {siteMetadata.headerTitle}
-                  </div>
-                ) : (
-                  siteMetadata.headerTitle
-                )} */}
               </div>
             </Link>
           </div>
