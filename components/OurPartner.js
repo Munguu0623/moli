@@ -8,7 +8,7 @@ export default function OurPartner(second) {
             <div className="relative w-full max-w-lg">
               <div className="animate-blob absolute top-0 -left-4 h-72 w-72 rounded-full bg-violet-300 opacity-70 mix-blend-multiply blur-xl filter"></div>
 
-              <div classNameName="animate-blob animation-delay-4000 absolute -bottom-24 right-20 h-72 w-72 rounded-full bg-fuchsia-300 opacity-70 mix-blend-multiply blur-xl filter"></div>
+              <div className="animate-blob animation-delay-4000 absolute -bottom-24 right-20 h-72 w-72 rounded-full bg-fuchsia-300 opacity-70 mix-blend-multiply blur-xl filter"></div>
               <div className="relative">
                 <img
                   className="mx-auto rounded-lg object-cover object-center shadow-2xl"
@@ -23,7 +23,9 @@ export default function OurPartner(second) {
             Бидэнтэй хамтран ажилдаг байгууллагууд
           </h1>
           <p className="mb-8 text-left text-base leading-relaxed text-gray-500">
-            Бид монгол орны ирээдүйн боловсролын салбарт шинэ залуустаа хөрөнгө оруулдаг
+            Бидэнтэй хамтран ажилладаг байгууллагууд Бид эх орныхоо ирээдүй хойч болсон оюунлаг
+            залуусынхаа мэргэжил сонголт хэмээх амьдралын хамгийн чухал сонголтыг зөв байлгахад
+            дэмжин ажилладаг.
           </p>
           <div className="-mx-4 mt-2 flex w-full flex-wrap text-left">
             <div className="mt-4 w-1/4 p-4 sm:w-1/4">
