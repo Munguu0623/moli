@@ -32,7 +32,7 @@ export default function OurPartner(second) {
               <img src="/static/images/sdc.jpg" />
             </div>
             <div className="mt-4 w-1/4 p-4 sm:w-1/4">
-              <img src="/static/images/zorig_logo.svg" />
+              <img src="/static/images/zorig.png" />
             </div>
             <div className="mt-4 w-1/4 pt-4 sm:w-1/4">
               <img src="/static/images/shine_mongol.png" />

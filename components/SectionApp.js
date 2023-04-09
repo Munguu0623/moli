@@ -47,10 +47,10 @@ export default function SectionApp(second) {
                 </a>
               </div>
             </div>
-            <Image
+            <img
               width="600"
               height="400"
-              src="/static/images/moli_des.png"
+              src="static/images/moli_des.png"
               alt="mobility_illustration"
               className="m-auto md:w-5/12"
               loading="lazy"
