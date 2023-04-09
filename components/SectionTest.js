@@ -60,7 +60,7 @@ export default function SectionTest(second) {
                     {testData[1].title}
                   </h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    Энд бас нэгэн зүйлийг онцгойлон анхааруулахад бид “Эрэлттэй мэргэжил”
                   </p>
                 </div>
                 <a href="#" className="group-hover:text-primary flex items-center justify-between">
@@ -95,7 +95,7 @@ export default function SectionTest(second) {
                     {testData[2].title}
                   </h5>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
-                    Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                    Энд бас нэгэн зүйлийг онцгойлон анхааруулахад бид “Эрэлттэй мэргэжил”
                   </p>
                 </div>
                 <a href="#" className="group-hover:text-primary flex items-center justify-between">
