@@ -41,7 +41,7 @@ export default function Team(second) {
               </div>
               <div className="space-y-4 text-center">
                 <div>
-                  <h4 className="text-2xl text-gray-700 dark:text-white">Буяндэлгэр</h4>
+                  <h4 className="text-2xl text-gray-700 dark:text-white">Б. Буяндэлгэр</h4>
                   <span className="block text-sm text-gray-500">Project manager</span>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function Team(second) {
               </div>
               <div className="space-y-4 text-center">
                 <div>
-                  <h4 className="text-2xl text-gray-700 dark:text-white">Сумъяабазар</h4>
+                  <h4 className="text-2xl text-gray-700 dark:text-white">О. Сумъяабазар</h4>
                   <span className="block text-sm text-gray-500">Member</span>
                 </div>
               </div>

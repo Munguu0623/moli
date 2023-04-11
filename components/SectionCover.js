@@ -32,11 +32,7 @@ export default function SectionCover(second) {
           </div>
         </div>
 
-        <img
-          alt="Violin"
-          src="https://static.vecteezy.com/system/resources/previews/005/084/403/large_2x/beautiful-asian-woman-university-student-happy-on-yellow-background-free-photo.jpg"
-          className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
-        />
+        <img alt="Violin" src="static/images/cover_moli.png" className="w-full" />
       </section>
     </>
   )

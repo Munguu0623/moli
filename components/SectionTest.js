@@ -1,4 +1,5 @@
 import testData from '@/data/testData'
+import Link from 'next/link'
 export default function SectionTest(second) {
   return (
     <>
@@ -28,21 +29,23 @@ export default function SectionTest(second) {
                     {testData[0].description}
                   </p>
                 </div>
-                <a href="#" className="group-hover:text-primary flex items-center justify-between">
-                  <span className="text-sm">тест үзэх</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
+                <Link href="/test">
+                  <a className="group-hover:text-primary flex items-center justify-between">
+                    <span className="text-sm">тест үзэх</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
@@ -63,21 +66,23 @@ export default function SectionTest(second) {
                     Энд бас нэгэн зүйлийг онцгойлон анхааруулахад бид “Эрэлттэй мэргэжил”
                   </p>
                 </div>
-                <a href="#" className="group-hover:text-primary flex items-center justify-between">
-                  <span className="text-sm">тест үзэх</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
+                <Link href="/test">
+                  <a className="group-hover:text-primary flex items-center justify-between">
+                    <span className="text-sm">тест үзэх</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
@@ -98,21 +103,23 @@ export default function SectionTest(second) {
                     Энд бас нэгэн зүйлийг онцгойлон анхааруулахад бид “Эрэлттэй мэргэжил”
                   </p>
                 </div>
-                <a href="#" className="group-hover:text-primary flex items-center justify-between">
-                  <span className="text-sm">тест үзэх</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
+                <Link href="/test">
+                  <a className="group-hover:text-primary flex items-center justify-between">
+                    <span className="text-sm">тест үзэх</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 dark:bg-gray-800">
@@ -133,24 +140,23 @@ export default function SectionTest(second) {
                     {testData[3].description}
                   </p>
                 </div>
-                <a
-                  href={testData[0].href}
-                  className="group-hover:text-primary flex items-center justify-between"
-                >
-                  <span className="text-sm">тест үзэх</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
+                <Link href="/test">
+                  <a className="group-hover:text-primary flex items-center justify-between">
+                    <span className="text-sm">тест үзэх</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-5 w-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12.97 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06l6.22-6.22H3a.75.75 0 010-1.5h16.19l-6.22-6.22a.75.75 0 010-1.06z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
