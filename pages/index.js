@@ -11,7 +11,9 @@ import SectionCard from '@/components/SectionCard'
 import SectionTest from '@/components/SectionTest'
 import SectionApp from '@/components/SectionApp'
 import OurPartner from '@/components/OurPartner'
-
+import { useEffect, useState } from 'react'
+import { Button, Modal } from 'antd'
+import Image from 'next/image'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -21,13 +23,61 @@ export async function getStaticProps() {
 }
 
 export default function Home({ posts }) {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  useEffect(() => {
+    setIsModalOpen(true)
+  }, [])
+
+  const showModal = () => {
+    setIsModalOpen(true)
+  }
+
+  const handleOk = () => {
+    setIsModalOpen(false)
+  }
+
+  const handleCancel = () => {
+    setIsModalOpen(false)
+  }
+
   return (
     <>
+      <Modal
+        title=" MOLI веб сайтанд тавтай морил!"
+        centered
+        open={isModalOpen}
+        onOk={handleOk}
+        onCancel={handleCancel}
+        footer={false}
+        style={{ textAlign: 'center' }}
+      >
+        <div className="flex h-32 w-full items-center justify-center">
+          <div className="flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full bg-yellow-400">
+            <div className="h-20 w-20 rounded-full bg-blue-500">
+              <Image width="245" height="245" src="/static/images/moli_non.png" />
+            </div>
+          </div>
+        </div>
+
+        <p className="text-center">
+          {' '}
+          <span className="font-bold text-blue-500">MOLI</span> танд мэргэжлээ зөв сонгоход тань
+          туслах болно. Манай веб сайтынд таны сонгох гэж байгаа мэргэжлийн талаарх танилцуулга
+          байхгүй бол та санал хүсэлтээр сонирхож байгаа мэргэжлээ илгээгээрэй.
+        </p>
+        <div className="my-10 flex justify-center ">
+          <div className=" h-1 w-3/4 rounded-full bg-blue-500"></div>
+        </div>
+        <div>
+          <p className="text-justify text-xl font-medium text-gray-500/30">#MOLI</p>
+        </div>
+      </Modal>
       <SectionCover />
       <SectionCard />
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
             Мэргэжлүүд
           </h1>

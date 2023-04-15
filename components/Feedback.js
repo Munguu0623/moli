@@ -10,7 +10,7 @@ export default function Feedback(second) {
             >
               <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
 
-              <div className="sm:flex sm:justify-between sm:gap-4">
+              <div className="sm:flex  sm:gap-4">
                 <div className="mb-3 sm:block sm:shrink-0 md:mb-0">
                   <img
                     alt="Paul Clapton"
@@ -19,8 +19,9 @@ export default function Feedback(second) {
                   />
                 </div>
                 <div>
-                  <h3 className=" text-xs font-bold  sm:text-sm">Улс төрч</h3>
-
+                  <h3 className=" text-xs font-bold  sm:text-sm">
+                    Америкийн зохиолч, яруу найрагч, редактор
+                  </h3>
                   <p className="mt-1 text-xs font-medium ">Д. Хьюстон</p>
                 </div>
               </div>

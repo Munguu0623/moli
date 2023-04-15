@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function SectionCover(second) {
   return (
     <>
@@ -15,21 +17,22 @@ export default function SectionCover(second) {
             </p>
 
             <div className="mt-4 md:mt-8">
-              <button
-                className="inline-block rounded bg-blue-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 "
-                type="button"
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScosw47g8IhzhhW7PIyW1jt8e1b31DvT91Z5BPTTlNNIbFfwA/viewform"
+                target="blank"
               >
-                санал хүсэлт
-              </button>
+                <button
+                  className="inline-block rounded bg-blue-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-blue-700 "
+                  type="button"
+                >
+                  санал хүсэлт
+                </button>
+              </a>
             </div>
           </div>
         </div>
 
-        <img
-          alt="Violin"
-          src="https://static.vecteezy.com/system/resources/previews/005/084/403/large_2x/beautiful-asian-woman-university-student-happy-on-yellow-background-free-photo.jpg"
-          className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
-        />
+        <img alt="Violin" src="https://i.ibb.co/MGKY0fn/cover-moli.png" className="w-full" />
       </section>
     </>
   )
