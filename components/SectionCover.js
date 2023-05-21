@@ -32,7 +32,7 @@ export default function SectionCover(second) {
           </div>
         </div>
 
-        <img alt="Violin" src="https://i.ibb.co/MGKY0fn/cover-moli.png" className="w-full" />
+        <img alt="Violin" src="/static/images/cover.png" className="w-full" />
       </section>
     </>
   )
